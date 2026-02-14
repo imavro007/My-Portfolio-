@@ -18,7 +18,7 @@ const Portfolio: React.FC<PortfolioProps> = ({ projects }) => {
     : projects.filter(p => p.category === filter);
 
   return (
-    <section className="py-24 px-6 lg:px-20 bg-background relative overflow-hidden">
+    <section id="work" className="py-24 px-6 lg:px-20 bg-background relative overflow-hidden">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row justify-between items-center mb-16 gap-8">
           <h2 className="text-5xl font-display font-extrabold tracking-tighter">Featured Work</h2>

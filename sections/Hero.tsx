@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.2 }}
             className="text-accent font-semibold tracking-widest uppercase text-sm mb-6 block"
           >
-            Md Mehedi Hasan — Bangladesh
+            Md Mehedi Hasan — Graphic Designer & Front-End Developer
           </motion.span>
           
           <h1 className="text-5xl md:text-7xl lg:text-9xl font-display font-extrabold leading-[1] mb-8 tracking-tighter">
@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-white/60 max-w-2xl leading-relaxed mb-10">
-            A specialized Graphic Designer & Front-End Developer based in Habiganj, 
+            A specialized Graphic Designer & Front-End Developer, 
             blending aesthetic precision with high-performance code.
           </p>
 

@@ -11,7 +11,7 @@ const Contact: React.FC = () => {
   ];
 
   return (
-    <section className="py-24 px-6 lg:px-20 bg-background border-t border-white/5">
+    <section id="contact" className="py-24 px-6 lg:px-20 bg-background border-t border-white/5">
       <div className="container mx-auto">
         <div className="grid lg:grid-cols-2 gap-24">
           <motion.div
